@@ -1,0 +1,89 @@
+.searchitem{
+border: 1px solid lightgray;
+padding: 10px;
+border-radius: 5px;
+display: flex;
+justify-content: space-between;
+gap: 20px;
+margin-bottom: 20px;
+
+}
+.siImg{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.siDesc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
+}
+.siCancel{
+    color: rgb(39, 136, 10);
+    font-weight: bold;
+}
+.siCancelSubtitile>{
+    color: rgb(39, 136, 10);
+}
+.siDetails{
+    flex: 1;
+}
+.siTitle{
+    font-size: 20px;
+    color: blue;
+}
+.siDistance{
+    font-size: 12px;
+}
+.siTaxZ{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.siDetails{
+    flex: 1;
+}
+.siRating{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.siRating>span{
+    font-weight: 500;
+    padding-right: 50px;
+
+}
+.siSubtitle{
+    font-weight: bold;
+}
+.siRating>button{
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 5px;
+}
+.siDetailTexts{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 150px;
+}
+.siTaxO{
+    color: gray;
+    font-size: 12px;
+    background-color: rgb(39, 145, 39);
+    width: max-content;
+
+}
+.siCheckButton{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+}
